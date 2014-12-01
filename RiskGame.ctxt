@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=players\ color1\ color2\ color3\ color4\ color5\ color6
+comment0.target=RiskGame(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=Alaska\ Alberta\ Greenland\ NorthWestTerritory\ WesternUnitedStates\ Quebec\ Mexico\ EasternUnitedStates\ Ontario\ Venezuela\ Peru\ Brazil\ Argentina\ NorthAfrica\ SouthAfrica\ EastAfrica\ Egypt\ Madagascar\ Congo\ NorthernEurope\ SouthernEurope\ WesternEurope\ Scandinavia\ Ukraine\ GreatBritain\ Iceland\ Afghanistan\ China\ India\ Irkutsk\ Japan\ Kamchatka\ MiddleEast\ Mongolia\ Siam\ Siberia\ Ural\ Yakutsk\ EasternAustralia\ Indonesia\ NewGuinea\ WesternAustralia
+comment1.target=java.util.ArrayList\ getAvailableTerritories(Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories,\ Territories)
+comment2.params=list
+comment2.target=void\ dispenseAvailableTerritories(java.util.ArrayList)
+comment3.params=
+comment3.target=void\ setOccupyingPlayer()
+comment4.params=
+comment4.target=void\ changeTerritoryColor()
+comment5.params=
+comment5.target=java.util.ArrayList\ getTurnOrder()
+comment5.text=public\ ArrayList<Player>\ getTurnOrder(){\n\ \ \ \ \ \ \ \ ArrayList<Player>turnOrder\ \=\ new\ ArrayList<Player>();\n\ \ \ \ \ \ \ \ ArrayList<Player>tempList\ \=\ Players;\n\ \ \ \ \ \ \ \ int\ z\ \=\ tempList.size();\n\ \ \ \ \ \ \ \ for\ (int\ i\ \=\ 0;\ i\ <\ z;\ i++)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ int\ q\ \=\ (int)(Math.random()*tempList.size());\n\ \ \ \ \ \ \ \ \ \ \ \ turnOrder.add(tempList.get(q));\n\ \ \ \ \ \ \ \ \ \ \ \ tempList.remove(q);\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ turnOrder;\n}
+comment6.params=
+comment6.target=java.util.ArrayList\ getPlayers()
+comment7.params=
+comment7.target=void\ setGameStart()
+comment8.params=
+comment8.target=boolean\ getGameStart()
+numComments=9

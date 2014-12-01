@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=
+comment1.target=int\ getPlayerAmounts()
+comment2.params=amounts
+comment2.target=void\ setPlayerAmounts(int)
+comment3.params=number
+comment3.target=boolean\ checkNumber(int)
+numComments=4

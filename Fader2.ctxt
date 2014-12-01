@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment1.params=sound
+comment1.target=Fader2(greenfoot.GreenfootSound)
+comment2.params=num\ col1\ col2\ col3\ col4\ col5\ col6\ sound
+comment2.target=Fader2(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ greenfoot.GreenfootSound)
+comment3.params=
+comment3.target=Fader2()
+comment4.params=v
+comment4.target=void\ reduceVolume(int)
+comment5.params=f
+comment5.target=void\ fade(int)
+numComments=6

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Menu()
+comment1.params=sound
+comment1.target=Menu(greenfoot.GreenfootSound)
+numComments=2

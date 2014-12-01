@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getCurrentColor()
+comment1.params=theColor
+comment1.target=void\ setCurrentColor(java.lang.String)
+comment2.params=player
+comment2.target=void\ setOccupyingPlayer(Player)
+comment3.params=
+comment3.target=int\ getCurrentPlayerTurn()
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=
+comment6.target=int\ getOccupiedUnits()
+comment7.params=a
+comment7.target=void\ setOccupiedUnits(int)
+comment8.params=
+comment8.target=Player\ getOccupyingPlayer()
+numComments=9
